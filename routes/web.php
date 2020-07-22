@@ -10,7 +10,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+//LP獲得用
+Route::get('live', function () {
+    return view('tiktok.check'); //仮LP
+    // return view('tiktok.noMatch'); //獲得用(1)
+});
 
-Route::get('/', function () {
-    return view('welcome');
+//LP確認用
+Route::get('cccheck', function () {
+    return view('tiktok.noMatch'); //獲得用(1)
 });
