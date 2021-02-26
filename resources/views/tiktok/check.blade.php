@@ -10,7 +10,10 @@
     </head>
     <body>
         <br>
-        <img src="{{ asset('image/tw_app.png') }}"></img>
-        <p>公式ストアへ遷移します。再度<a href="https://apps.apple.com/jp/app/%E3%83%90%E3%82%A4%E3%83%88-%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AF%E3%82%BF%E3%82%A6%E3%83%B3%E3%83%AF%E3%83%BC%E3%82%AF/id434586962">コチラ</a>をタップして下さい。</p>
+        <img src="{{ asset('image/livelivelive.png') }}"></img>
+        <p>公式ストアへ遷移します。再度<a href="https://apps.apple.com/jp/app/pococha-%E3%83%9D%E3%82%B3%E3%83%81%E3%83%A3-%E3%83%A9%E3%82%A4%E3%83%96%E9%85%8D%E4%BF%A1-%E3%82%A2%E3%83%97%E3%83%AA/id1175969205">コチラ</a>をタップして下さい。</p>
+        <br>
+            <br>
+            <br>
     </body>
 </html>

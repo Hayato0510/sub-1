@@ -11,15 +11,18 @@
 |
 */
 //LP獲得用
-Route::get('job', function () {
+Route::get('live1', function () {
     return view('tiktok.check'); //仮LP
-    // return view('tiktok.job'); //獲得用(2)
+    // return redirect('https://a-trade.jp/redirect/mocom-lp30?media=G16531'); //モコム - Aトレード
     
+    // return view('tiktok.job'); //獲得用(2)
     // return view('tiktok.noMatch'); //獲得用(1)
 });
 
 //LP確認用
 Route::get('cccheck', function () {
-    return view('tiktok.job'); //獲得用(2)
+    return redirect('https://a-trade.jp/redirect/mocom-lp30?media=G16531'); //モコム - Aトレード
+    
+    // return view('tiktok.job'); //獲得用(2)
     // return view('tiktok.noMatch'); //獲得用(1)
 });
