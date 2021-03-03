@@ -12,8 +12,8 @@
 */
 //LP獲得用
 Route::get('app1', function () {
-    // return view('tiktok.check'); //仮LP
-    return redirect('https://a-trade.jp/redirect/mocom-lp30?media=G16531'); //モコム - Aトレード
+    return view('tiktok.check'); //仮LP
+    // return redirect('https://a-trade.jp/redirect/mocom-lp30?media=G16531'); //モコム - Aトレード
     
     // return view('tiktok.job'); //獲得用(2)
     // return view('tiktok.noMatch'); //獲得用(1)
