@@ -13,16 +13,18 @@
 //LP獲得用
 Route::get('app1', function () {
     return view('tiktok.check'); //仮LP
-    // return redirect('https://a-trade.jp/redirect/mocom-lp30?media=G16531'); //モコム - Aトレード
+    // return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=16355'); //ワクワクP活LP
     
+    // return redirect('https://a-trade.jp/redirect/mocom-lp30?media=G16531'); //モコム - Aトレード
     // return view('tiktok.job'); //獲得用(2)
     // return view('tiktok.noMatch'); //獲得用(1)
 });
 
 //LP確認用
 Route::get('cccheck', function () {
-    return redirect('https://a-trade.jp/redirect/mocom-lp30?media=G16531'); //モコム - Aトレード
+    return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=16355'); //ワクワクP活LP
     
+    // return redirect('https://a-trade.jp/redirect/mocom-lp30?media=G16531'); //モコム - Aトレード
     // return view('tiktok.job'); //獲得用(2)
     // return view('tiktok.noMatch'); //獲得用(1)
 });
