@@ -22,7 +22,7 @@ Route::get('app1', function () {
     // return view('tiktok.noMatch'); //獲得用(1)
 });
 
-// OS識別x遷移 for パパ活
+// OS識別x遷移
 Route::get('cccheck', 'AdController@info');
 
 // //LP確認用
