@@ -12,8 +12,8 @@
 */
 //LP獲得用
 Route::get('app1', function () {
-    // return view('tiktok.check'); //仮LP
-    return view('tiktok.adran'); //LINE直追加ーAnd
+    return view('tiktok.check'); //仮LP
+    // return view('tiktok.adran'); //LINE直追加ーAnd
     
     // return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=16355'); //ワクワクP活LP
     // return view('tiktok.wklp'); //獲得用(3) - ワクワクP活LP
